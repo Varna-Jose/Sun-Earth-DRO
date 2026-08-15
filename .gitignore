@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime artifacts (created by run_campaign.py)
+DRO_injection/output/python/*
+!DRO_injection/output/python/.gitkeep
+DRO_injection/output/gmat/*
+!DRO_injection/output/gmat/.gitkeep
+DRO_injection/generated/gmat/*
+!DRO_injection/generated/gmat/.gitkeep
+
+# Exported shareable results package
+dist/
+
+# Packaging
+build/
+*.egg-info/
+
+DRO_injection/generated/
+DRO_injection/output/
+dist/
+
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
